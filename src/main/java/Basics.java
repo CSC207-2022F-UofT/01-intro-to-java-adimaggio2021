@@ -138,7 +138,7 @@ public class Basics {
          *                you may use them if you wish.
          */
         StringBuilder ret = new StringBuilder();
-        String [] splitted = to_split.split();
+        String [] splitted = to_split.split(" ", 0);
         for(String s : splitted){
             ret.append(s.charAt(0));
         }
